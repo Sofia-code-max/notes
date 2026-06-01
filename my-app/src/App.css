@@ -1,0 +1,111 @@
+body{
+    background: url(b.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.buttonAdd{
+    font-family: 'Montserrat' sans-serif;
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid white;
+    font-size: 17px;
+    color: white;
+    width: 90px;
+    
+}
+
+.buttonAdd:hover{
+  background-color: #fff;
+  color: black;
+}
+.buttonDelete:hover{
+    color: red;
+}
+
+.buttonDelete{
+    font-family: 'Montserrat' sans-serif;
+    background: none;
+    border: 0;
+    font-size: 15px;
+    color: rgba(250, 221, 1, 0.945);
+    font-weight: bolder;
+}
+
+h1{
+    font-family: "Edu NSW ACT Cursive", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    background-color: #dcdef7;
+    border-radius: 20px;
+    padding: 15px;
+    border: 2px solid white;
+    color: white;
+    background-color: black;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.note{
+    margin-left: 0px;
+}
+
+.App{
+    display: flex;
+    justify-content: space-around;
+}
+
+.whole-plan{
+    width: 70%;
+    height: 60vh;
+}
+
+.myInput{
+    width: 70%;
+    height: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    display: block;
+    margin-top: 30px;
+}
+
+textarea{
+    display: flex;
+    border: 1px solid #ddd;
+    margin-top: 30px;
+    width: 70%;
+    height: 200px;
+    border-radius: 20px;
+    font-family: 'Montserrat' sans-serif;
+    padding: 20px;
+}
+
+.selected{
+    background-color: #f0d106;
+}
+
+.default{
+    background-color: #dcdef7;
+}
+
+p{
+    color: white;
+    font-family: 'Montserrat' sans-serif;
+    font-size: 20px;
+}
+
+.title{
+    font-family: 'Montserrat' sans-serif;
+    color: white;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.border{
+    border: 2px solid rgb(255, 225, 0);
+}
+
