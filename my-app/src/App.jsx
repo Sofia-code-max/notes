@@ -24,7 +24,7 @@ function App() {
         setMealPlans(mealPlans.filter(({ id }) => id !== mealId));
     };
 
-    const updateDay = (updatedMeal) => { 
+    const updateNote = (updatedMeal) => { 
         const updatedMeals = mealPlans.map((mealPlan) => {
             if (mealPlan.id === updatedMeal.id) {  
                 return updatedMeal;
@@ -53,7 +53,7 @@ function App() {
             />
             <MyNotesAndMore
                 selectedDay={ActivateMeal()} 
-                updateDay={updateDay}
+                updateNote={updateNote}
             />
 
         </div>

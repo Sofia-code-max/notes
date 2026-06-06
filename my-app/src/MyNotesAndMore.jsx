@@ -22,7 +22,7 @@ const MyNotesAndMore = ({selectedDay , updateNote}) => {
             />
             <textarea
                 placeholder="note...." 
-                id="mealForADay" value={selectedDay.mealForADay} 
+                id="NoteForADay" value={selectedDay.mealForADay} 
                 onChange={(e) => editMyNote('mealForADay' , e.target.value)}>
             </textarea>
             <textarea 
